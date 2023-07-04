@@ -1,0 +1,39 @@
+/*- General Rules */
+body {
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+
+/*# My Classes */
+
+/*+ Header */
+header nav ul li a {
+  font-size: 18px;
+}
+/*+====================== FREQUENTLY ASKED QUESTIOINS ======================*/
+.accordion-button {
+  text-align: right;
+}
+.accordion-button::after {
+  margin-left: 0;
+  margin-right: auto;
+}
+/*+====================== Up Button ======================*/
+#up,
+#up a {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  bottom: 40px !important;
+  left: 20px !important;
+  right: inherit !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+}
+#up a {
+  display: flex;
+}
